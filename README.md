@@ -59,23 +59,6 @@ export class CheckboxComponent {
 ```
 
 
-## 🔹 model()
-
-> ✅ Заміна `[(ngModel)]`
-> 📦 Зʼявилось в Angular **17.1**
-
-```ts
-import { model } from '@angular/core';
-
-export class CheckboxComponent {
-  checked = model<boolean>();
-}
-
-<checkbox [(checked)]="checkedSignal()" />
-
-```
-
-
 ## Signal queries
 
 ## 🔹 viewChild()
